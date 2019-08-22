@@ -198,7 +198,37 @@
 /* - preloader-default.css */
 /* - pace/pace-theme-minimal.tmpl.css*/
 
+@font-face {
+  font-family: 'amatic-regular';
+  src: url('font/amatic-regular.ttf');
+  src: url('font/amatic-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'amatic-bold';
+  src: url('font/amatic-bold.ttf');
+  src: url('font/amatic-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pacific';
+  src: url('font/pacific.ttf');
+  src: url('font/pacific.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nolean';
+  src: url('font/nolean.ttf');
+  src: url('font/nolean.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================*/
@@ -208,9 +238,8 @@ body{
 	font-size:15px;
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Oswald', sans-serif;
-}
+
+.subtitle-wed { font-size: 60px !important; font-family: pacific; }
 
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
@@ -421,8 +450,8 @@ img.with-border{
 	list-style-type:none; 
 	margin:0; 
 	padding:45px 0 0 0;
-	font-family: 'Oswald', sans-serif;
-	font-size:13px;
+	font-family: amatic-bold;
+	font-size:24px;
 	z-index:1000;
 }
 
@@ -478,15 +507,15 @@ img.with-border{
 	display:inline;	
 }
 
-#nav-menu > li:before{
+/*#nav-menu > li:before{
   	font-family: "fontello";
   	font-style: normal;
   	font-weight: normal;
   	font-size:10px;
-	content: '\e9bd';
+	content: '\f004';
 	color:#f0394d;
 	text-align:center;
-}
+}*/
 
 #nav-menu > li.first-child:before{
 	content: "";
@@ -799,17 +828,17 @@ img.with-border{
 	z-index:1000;
 }
 
-#side-nav-menu > li > a:before{
+/*#side-nav-menu > li > a:before{
   	font-family: "fontello";
   	font-style: normal;
   	font-weight: normal;
   	font-size:10px;
-	content: '\e9bd';
+	content: '\f004';
 	color:#f0394d;
 	text-align:center;
 	vertical-align:middle;
 	padding-right:10px;
-}
+}*/
 
 #side-nav-menu > li a{
 	display:block;
@@ -1018,6 +1047,11 @@ img.with-border{
 	left:0; 
 	z-index:3;
 	overflow:hidden;
+	background-image: url('../img/banner2.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+
 }
 
 /* 06.5.2 Inner Wrapper */
@@ -1597,8 +1631,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 .banner-text.light{
 	color:#FFF;
-	border-top:medium double #000; 
-	border-bottom:medium double #000;
+	border-top:medium double #fff; 
+	border-bottom:medium double #fff;
 }
 
 .banner-text.light *{
@@ -2837,7 +2871,7 @@ footer .image-divider.fixed-height{
 /* 14.6 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
-	font-size:42px; 
+	font-size:70px; 
 	margin-bottom:30px; 
 	font-family: 'Pacifico', cursive;
 }
