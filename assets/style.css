@@ -243,7 +243,7 @@ body{
 
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-	color:#333333;
+	color:#333333; font-family: amatic-bold;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, 
@@ -1659,7 +1659,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	text-align:center
 }
 
-.banner-text.withlove:before{
+/*.banner-text.withlove:before{
 	display:block;
 	font-family: "fontello";
 	position:absolute;
@@ -1670,13 +1670,13 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	left:0;
 	right:0;
 	margin-left:19px;
-}
+}*/
 
 .banner-text.withlove.dark:before{
 	color:#e1dddd;
 }
 
-.banner-text.withlove:after{
+/*.banner-text.withlove:after{
 	display:block;
 	font-family: "fontello";
 	position:absolute;
@@ -1687,7 +1687,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	left:0;
 	right:0	;
 	margin-right:19px;
-}
+}*/
 
 
 /* 07.2.12 White Box Content Wrapper 			 */
