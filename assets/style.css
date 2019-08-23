@@ -2370,13 +2370,13 @@ a:hover .de-icon.effect3{
 /* 11.4 Label									 */
 /*-----------------------------------------------*/
 form label{
-	font-family: 'Oswald', sans-serif;
-	font-size:14px;
+	font-family: amatic-bold;
+	font-size:24px;
 	font-weight:normal;
 }
 
 .option-label{
-	font-family: 'Arvo', serif;	
+	font-family: amatic-bold;
 	color:#6a6a6a;
 	font-size:13px;
 }
