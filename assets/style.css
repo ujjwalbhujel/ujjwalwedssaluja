@@ -229,6 +229,27 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'adl-block';
+  src: url('font/adl-block.ttf');
+  src: url('font/adl-block.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'adl-cursive';
+  src: url('font/adl-cursive.ttf');
+  src: url('font/adl-cursive.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mountain';
+  src: url('font/mountain.ttf');
+  src: url('font/mountain.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================*/
