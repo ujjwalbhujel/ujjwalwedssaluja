@@ -1470,7 +1470,7 @@ img.with-border{
 .video-divider.auto-height {
 	height:100%;
 	width:100%;
-	padding:150px 0;
+	padding:75px 0;
 }
 
 .image-divider.fixed-height,
@@ -2772,7 +2772,7 @@ footer .image-divider.fixed-height{
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
 #our-story{
-	padding: 140px 0
+	padding: 100px 0
 }
 
 .story-row.row {
@@ -2881,7 +2881,7 @@ footer .image-divider.fixed-height{
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
 #gallery-section{
-	padding: 140px 0
+	padding: 100px 0
 }
 
 #gallery-section .photo-item{
@@ -2932,7 +2932,7 @@ h2#dont-miss-it-title{
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
 #more-events{
-	padding: 140px 0
+	padding: 100px 0
 }
 
 #events-carousel .item{
@@ -2944,7 +2944,7 @@ h2#dont-miss-it-title{
 /* 14.8 Groomsmen Section						 */
 /* ----------------------------------------------*/
 #groomsmen-section{
-	padding: 140px 0
+	padding: 100px 0
 }
 
 .groomsmen-item{
@@ -2955,7 +2955,7 @@ h2#dont-miss-it-title{
 /* 14.9 Bridesmaid Section						 */
 /* ----------------------------------------------*/
 #bridesmaid-section{
-	padding: 140px 0
+	padding: 100px 0
 }
 
 .bridesmaid-item{
@@ -2966,7 +2966,7 @@ h2#dont-miss-it-title{
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 140px 0; 
+	padding: 100px 0; 
 	background-color:#FFF
 }
 
@@ -2974,7 +2974,7 @@ h2#dont-miss-it-title{
 /* 14.11 RSVP Section							 */
 /* ----------------------------------------------*/
 #rsvp-section{
-	padding: 140px 0
+	padding: 100px 0
 }
 
 
