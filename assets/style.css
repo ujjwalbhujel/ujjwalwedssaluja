@@ -1068,7 +1068,7 @@ img.with-border{
 	left:0; 
 	z-index:3;
 	overflow:hidden;
-	background-image: url('../img/us-cover.png');
+	background-image: url('../img/banner.png');
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
