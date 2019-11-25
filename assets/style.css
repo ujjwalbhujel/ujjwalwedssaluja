@@ -1074,6 +1074,12 @@ img.with-border{
 	background-size: cover;
 
 }
+@media (max-width: 480px){
+	.slide-title-outter-wrapper {
+	background-image: url('../img/banner-mb.png');
+
+	}
+}
 
 /* 06.5.2 Inner Wrapper */
 /* ----------------------------------------------*/
