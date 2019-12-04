@@ -3914,3 +3914,10 @@ footer .image-divider.fixed-height{
     animation: yourAnimation 0.8s linear 0.5s linear;
 }
 
+
+@media (max-width: 768px) {
+	.css-logo.rounded {position: relative; left: 30px;}
+}
+@media (max-width: 480px) {
+	.col-sm-12 {width: 100% !important;}
+}
