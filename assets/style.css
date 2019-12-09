@@ -3920,4 +3920,5 @@ footer .image-divider.fixed-height{
 }
 @media (max-width: 480px) {
 	.col-sm-12 {width: 100% !important;}
+	.photo-item.frame-border {width: 60%; left: 60%; margin-left: -40%;}
 }
