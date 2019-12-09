@@ -1076,7 +1076,9 @@ img.with-border{
 }
 @media (max-width: 480px){
 	.slide-title-outter-wrapper {
-	background-image: url('../img/banner-mb.png');
+	background-image: url('../img/banner-mb.png');}
+	.mb-img {
+	background-image: url('../img/banner-mb.png') !important;
 
 	}
 }
